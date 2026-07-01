@@ -1,0 +1,373 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    background:#eef2f7;
+
+}
+
+header{
+
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+
+}
+
+.container{
+
+    width:90%;
+    margin:auto;
+
+}
+
+/* .chart-container{
+
+    position: relative;
+
+    height: 100;
+
+    width: 100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+} */
+
+input,
+select{
+
+    border:1px solid #ddd;
+
+    border-radius:8px;
+
+}
+
+input:focus,
+select:focus{
+
+    outline:none;
+
+    border-color:#2563eb;
+
+}
+
+.cards{
+
+    display:flex;
+    justify-content:space-between;
+    margin:30px 0;
+    gap:20px;
+
+}
+
+.card{
+
+    flex:1;
+    background:white;
+    padding:25px;
+    border-radius:18px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.3s ease;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.balance{
+
+    border-left:6px solid #3498db;
+
+}
+
+.badge-income{
+    background:#dcfce7;
+    color:#166534;
+    padding:5px 10px;
+    border-radius:15px;
+    font-size:13px;
+}
+
+.badge-expense{
+    background:#fee2e2;
+    color:#991b1b;
+    padding:5px 10px;
+    border-radius:15px;
+    font-size:13px;
+}
+
+
+
+.main{
+
+    display:flex;
+    gap:30px;
+
+}
+
+.left{
+
+    flex:1;
+
+}
+
+.right{
+
+    flex:1;
+
+}
+
+form{
+
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+
+}
+
+form input,
+form select{
+
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+
+}
+
+button{
+
+    width:100%;
+    padding:14px;
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    transition:.25s;
+
+}
+
+button:hover{
+
+    background:#1d4ed8;
+
+}
+
+.delete-btn{
+
+background:#ef4444;
+
+padding:8px 14px;
+
+width:auto;
+
+}
+
+.delete-btn:hover{
+
+background:#dc2626;
+
+}
+
+.edit-btn{
+
+background:#16a34a;
+
+padding:8px 14px;
+
+width:200px;
+
+margin-right:0px;
+
+}
+
+.table-section{
+
+    margin-top:40px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+
+}
+
+table{
+
+    width:100%;
+    border-collapse:collapse;
+
+}
+thead{
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+tbody tr:hover{
+
+background:#f8fafc;
+
+}
+
+th,td{
+
+    padding:12px;
+    border-bottom:1px solid #ddd;
+    text-align:center;
+
+}
+
+canvas{
+    width: 100% !important;
+    height:400px !important;
+    background:white;
+    padding:10px;
+    border-radius:15px;
+}
+
+.card{
+
+transition:.25s;
+cursor:pointer;
+
+}
+
+.card h2{
+
+    font-size:2rem;
+
+    margin-top:12px;
+
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.card:hover{
+
+transform:translateY(-5px);
+
+}
+
+.toolbar{
+
+display:flex;
+
+justify-content:space-between;
+
+gap:20px;
+
+margin:20px 0;
+
+}
+
+.toolbar input{
+
+flex:3;
+
+padding:12px;
+
+font-size:16px;
+
+}
+
+.toolbar select{
+
+flex:1;
+
+padding:12px;
+
+}
+
+.actions{
+    display:flex;
+    justify-content:flex-end;
+    margin:20px 0;
+}
+
+#exportBtn{
+    width:auto;
+    padding:12px 20px;
+    border-radius:8px;
+}
+
+footer{
+
+margin-top:50px;
+
+padding:25px;
+
+text-align:center;
+
+color:#666;
+
+}
+
+.income-tag{
+
+color:#16a34a;
+
+font-weight:600;
+
+}
+
+.expense-tag{
+
+color:#dc2626;
+
+font-weight:600;
+
+}
+
+
+@media(max-width:900px){
+
+.cards{
+
+flex-direction:column;
+
+}
+
+.main{
+
+flex-direction:column;
+
+}
+
+table{
+
+font-size:13px;
+
+}
+
+}
