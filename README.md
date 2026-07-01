@@ -35,4 +35,8 @@ This project is built using standard C++ and has no external dependencies. You c
 Navigate to the project's root directory in your terminal and run the following command. This command compiles all the necessary source files and links them together into a single executable named `FinanceTracker`.
 
 ```bash
-g++ main.cpp Transaction.cpp TransactionManager.cpp -o FinanceTracker
+g++ main.cpp transaction.cpp transactionManager.cpp -o FinanceTracker
+
+
+```bash
+./FinanceTracker.exe
