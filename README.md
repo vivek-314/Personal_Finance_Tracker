@@ -38,6 +38,8 @@ Navigate to the project's root directory in your terminal and run the following 
 g++ main.cpp transaction.cpp transactionManager.cpp -o FinanceTracker
 ```
 
+
+
 ```bash
 ./FinanceTracker.exe
 ```
