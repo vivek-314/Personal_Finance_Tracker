@@ -23,7 +23,7 @@ This application provides a complete command-line interface (CLI) for tracking i
 
 ## Technology Stack
 
-*   **Language:** C++ (C++11 or later)
+*   **Language:** C++ 
 *   **Core C++ Libraries:** `iostream`, `fstream`, `sstream`, `vector`, `string`, `iomanip`, `limits`, `algorithm`
 
 ## How to Compile and Run
@@ -36,3 +36,4 @@ Navigate to the project's root directory in your terminal and run the following 
 
 ```bash
 g++ main.cpp Transaction.cpp TransactionManager.cpp -o FinanceTracker
+```
